@@ -1,6 +1,6 @@
 # swap-bot
 
-Listens to Uniswap V3 pool contracts on Base chain, detects buy events in real time, and publishes enriched results to downstream services via Redis pub/sub. Pairs to watch are added and removed dynamically at runtime — no restart required.
+This is a sample of code that could be used to listen to swap events for specific tokens. It is not a complete buy bot. It is a component that could be used within a buy bot. This code listens to Uniswap V3 pool contracts on Base chain, detects buy events in real time, and publishes enriched results to downstream services via Redis pub/sub. Pairs to watch are added and removed dynamically at runtime — no restart required.
 
 ---
 
